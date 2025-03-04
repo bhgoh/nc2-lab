@@ -25,7 +25,7 @@ module.exports = {
               {
                 type: 'category',
                 label: 'Day 2 Management',
-                items: ['day2/overview'],
+                items: ['Day2/overview'],
               },
               {
                 type: 'category',

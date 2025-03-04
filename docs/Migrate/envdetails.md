@@ -72,7 +72,7 @@ Always use applications within the remote session. Otherwise, the version you us
 
    - username - <PC username> adminuser##@ntnxlab.local or adminuser##
    - password - <PC password provided> from Connection Details
-   ![](/img/PC.png)
+   ![(/img/PC.png)]
 
 5. Skip the tour.
    ![/img/tour.png]
