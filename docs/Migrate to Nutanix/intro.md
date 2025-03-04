@@ -5,11 +5,18 @@ slug: /
 
 # Getting Started
 
-Welcome to Nutanix Cloud Manager (NCM) workshop.
+Welcome to Nutanix Cloud Clusters (NC2) Hands-On Lab.
 
-This workshop accompanies an instructor-led session that introduces NCM on Nutanix HCI on Acropolis Hypervisors (AHV). By completing all the labs, you will gain knowledge on creating single or multiple VM blueprints and link day 2 actions with them through runbooks or playbooks. You will gain insights into Nutanix v3_APIs and take advantage of it to automate mundane daily tasks.
+This is an instructor-led hands-on lab session that enables you to experience migration process to Nutanix Cloud Clusters in just a few steps. Nutanix Move tool allows you to handle the transition and reduces the risk of disruption or costly rebuilding of virtual machines.
 
-The lab is structure in a manner where you role play as an administrator in the corporate world, tackling daily tasks as the business requirement arises. Please read through the detail scenario and familiar yourself with the requirements prior to attempting the labs.
+Move is a cross-hypervisor mobility solution that supports numerous migration paths including:
+
+- VMware ESXi (legacy infrastructure or Nutanix) to AHV
+- VMware ESXi (legacy infrastructure or Nutanix) to VMware ESXi on Nutanix
+- VMware ESXi to Nutanix Cloud Clusters (NC2) on AWS
+- VMware ESXi to NC2 on Microsoft Azure
+- VMware Cloud (VMC) on AWS to AHV
+- VMC on AWS to NC2 on AWS
 
 ## What is new?
 
