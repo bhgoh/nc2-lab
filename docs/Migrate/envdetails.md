@@ -46,7 +46,7 @@ Always use applications within the remote session. Otherwise, the version you us
   to proceed.
   - Method 1
     1. Click #Advanced.
-       ![](/img/connection1.png)
+       ![](/Migrate/img/connection1.png)
     2. Click on any blank section within the main browser window.
     3. Type "thisisunsafe" without the quotes. Note. The text you type will not be visible.
        ![](/img/connection2.png)
@@ -70,12 +70,12 @@ Always use applications within the remote session. Otherwise, the version you us
 4. Replace ## with your User #. For example, if your User # is 01, login as adminuser01.
    Note that your assigned cluster and the credentials will all map to your name.
 
-   - username - <PC username> adminuser##@ntnxlab.local or adminuser##
-   - password - <PC password provided> from Connection Details
-   ![(/img/PC.png)]
+   - username - PC username adminuser##@ntnxlab.local or adminuser##
+   - password - PC password provided from Connection Details
+     ![](/img/PC.png)
 
 5. Skip the tour.
-   ![/img/tour.png]
+   ![](/img/tour.png)
 
 
   
