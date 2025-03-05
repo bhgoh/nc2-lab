@@ -17,7 +17,8 @@ module.exports = {
                 items: ['SetEnv/overview',
                         'SetEnv/categoryandpolicy',
                         'SetEnv/policy',
-                        'SetEnv/playbook'],
+                        'SetEnv/playbook',
+                        'SetEnv/setuptakeaway'],
               },
               {
                 type: 'category',
