@@ -46,15 +46,15 @@ Always use applications within the remote session. Otherwise, the version you us
   to proceed.
   - Method 1
     1. Click #Advanced.
-       ![](/Migrate/img/connection1.png)
+       ![](./img/connection1.png)
     2. Click on any blank section within the main browser window.
     3. Type "thisisunsafe" without the quotes. Note. The text you type will not be visible.
-       ![](/img/connection2.png)
+       ![](./img/connection2.png)
   - Method 2
     1. Click Advanced.
-       ![](/img/connection3.png)
+       ![](./img/connection3.png)
     2. Click Proceed to IP-ADDRESS(unsafe).
-       ![](/img/connection3.png)
+       ![](./img/connection3.png)
 
 # Connection to Prism Central (PC)
 
@@ -72,10 +72,10 @@ Always use applications within the remote session. Otherwise, the version you us
 
    - username - PC username adminuser##@ntnxlab.local or adminuser##
    - password - PC password provided from Connection Details
-     ![](/img/PC.png)
+     ![](./img/PC.png)
 
 5. Skip the tour.
-   ![](/img/tour.png)
+   ![](./img/tour.png)
 
 
   
