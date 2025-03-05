@@ -15,7 +15,8 @@ module.exports = {
                 type: 'category',
                 label: 'Setting up the Environment',
                 items: ['SetEnv/overview',
-                        'SetEnv/categoryandpolicy'],
+                        'SetEnv/categoryandpolicy',
+                        'SetEnv/policy'],
               },
               {
                 type: 'category',
