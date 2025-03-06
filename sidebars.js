@@ -25,9 +25,8 @@ module.exports = {
                 label: 'Migrating Workloads',
                 items: ['MigrateWLs/overview',
                         'MigrateWLs/setupmove',
-                        'MigrateWLs/viewsourcevm',
-                        'MigrateWLs/migrateplan',
-                        'MigrateWLs/migratevm'],
+                        'MigrateWLs/migratingvm',
+                        'MigrateWLs/migrateplan'],
               },
               {
                 type: 'category',
