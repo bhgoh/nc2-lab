@@ -26,7 +26,8 @@ module.exports = {
                 items: ['MigrateWLs/overview',
                         'MigrateWLs/setupmove',
                         'MigrateWLs/migratingvm',
-                        'MigrateWLs/migrateplan'],
+                        'MigrateWLs/migrateplan',
+                        'MigrateWLs/migratevm'],
               },
               {
                 type: 'category',
