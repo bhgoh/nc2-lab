@@ -36,7 +36,6 @@ module.exports = {
                         'AdvMigrate/expadvplan',
                         'AdvMigrate/migratevm',
                         'AdvMigrate/migratescale',
-                        'AdvMigrate/migratesharemove',
                         'AdvMigrate/migratetakeaway'],
               },
               {
