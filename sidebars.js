@@ -50,9 +50,10 @@ module.exports = {
                         'Day2/mgmttakeaway'],
               },
               {
-                type: 'category',
+                type:  'category',
                 label: 'Elastic Disaster Recovery',
-                items: ['DR/overview'],
+                items: ['DR/overview',
+                items: 'DR/clustersetup'],
               },   
       ]
     },
