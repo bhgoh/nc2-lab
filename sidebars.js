@@ -41,7 +41,13 @@ module.exports = {
               {
                 type: 'category',
                 label: 'Day 2 Management',
-                items: ['Day2/overview'],
+                items: ['Day2/overview',
+                        'Day2/ngt',
+                        'Day2/iam',
+                        'Day2/reports',
+                        'Day2/capacityp',
+                        'Day2/vmdetect',
+                        'Day2/mgmttakeaway'],
               },
               {
                 type: 'category',
