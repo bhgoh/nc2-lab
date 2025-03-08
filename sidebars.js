@@ -56,6 +56,7 @@ module.exports = {
                         'DR/clustersetup',
                         'DR/protectp',
                         'DR/recoveryp',
+                        'DR/testrp',
                         'DR/takeaway'],
               },   
       ]
