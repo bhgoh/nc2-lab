@@ -51,7 +51,7 @@ module.exports = {
               },
               {
                 type:  'category',
-                label: 'Elastic Disaster Recovery',
+                label: 'Nutanix Disaster Recovery',
                 items: ['DR/overview',
                         'DR/clustersetup',
                         'DR/protectp',
