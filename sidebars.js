@@ -53,7 +53,10 @@ module.exports = {
                 type:  'category',
                 label: 'Elastic Disaster Recovery',
                 items: ['DR/overview',
-                        'DR/clustersetup'],
+                        'DR/clustersetup',
+                        'DR/protectp',
+                        'DR/recoveryp',
+                        'DR/takeaway'],
               },   
       ]
     },
