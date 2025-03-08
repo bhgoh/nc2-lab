@@ -11,23 +11,15 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'NC2 Hands-on Lab',
-  tagline: '#cores-on',
-  favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
-  url: 'https://bhgoh.github.io/',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  tagline: '#Basic to Advanced Migration & DR Labs',
+  url: 'https://github.com/',
   baseUrl: '/nc2-lab/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
   organizationName: 'bhgoh', // Usually your GitHub org/user name.
   projectName: 'nc2-lab', // Usually your repo name.
   deploymentBranch: 'gh-pages',
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -44,30 +36,15 @@ const config = {
       ({
         docs: {
           routeBasePath: '/',
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://bhgoh.github.io/nc2-lab/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/bhgoh/nc2-lab/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
-        },
+          customCss: require.resolve('./src/css/custom.css'),
+        },  
       }),
     ],
   ],
@@ -76,23 +53,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+          hideable: true,
+        },
+      },
       navbar: {
-        title: 'My Site',
+        title: 'NC2 Labs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'NC2 Labs',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/bhgoh/nc2-lab',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,53 +76,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
       },
     }),
 };
 
-export default config;
+module.exports = config;
